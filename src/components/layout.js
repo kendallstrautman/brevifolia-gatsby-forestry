@@ -1,11 +1,16 @@
 import React from "react"
 import { Link } from "gatsby"
+import layoutStyles from "../styles/components/layout.module.css"
 
 const Layout = ({ children }) => {
   return (
     <section>
-      <header>
-        <nav role="navigation" aria-label="main navigation">
+      <header className={layoutStyles.header}>
+        <nav
+          className={layoutStyles.nav}
+          role="navigation"
+          aria-label="main navigation"
+        >
           <icon>
             <Link to="/">
               <img
@@ -16,9 +21,11 @@ const Layout = ({ children }) => {
               />
             </Link>
           </icon>
-          <Link to="/">Home</Link>
-          <Link to="/blog">Blog</Link>
-          <Link to="/about">About</Link>
+          <div>
+            <Link to="/">Home</Link>
+            <Link to="/blog">Blog</Link>
+            <Link to="/about">About</Link>
+          </div>
         </nav>
         <div>A Lumberjack's Journal</div>
         <p>A blot sharing notes on the Arboreal universe.</p>
