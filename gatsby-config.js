@@ -9,21 +9,27 @@ module.exports = {
     "gatsby-plugin-sass",
     "gatsby-transformer-remark",
     "gatsby-plugin-react-helmet",
-
-    {
-      resolve: "gatsby-mdx",
-      options: {
-        defaultLayouts: {
-          //loads all mdx files with the layout component
-          default: require.resolve("./src/components/layout.js"),
-        },
-      },
-    },
     {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "src",
         path: `${__dirname}/src/`,
+      },
+    },
+    "gatsby-plugin-sharp",
+    {
+      resolve: "gatsby-transformer-remark",
+      options: {
+        plugins: [
+          "gatsby-remark-relative-images",
+          {
+            resolve: "gatsby-remark-images",
+            options: {
+              maxWidth: 1000,
+              linkImagesToOriginal: false,
+            },
+          },
+        ],
       },
     },
   ],

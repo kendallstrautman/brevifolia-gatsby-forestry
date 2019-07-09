@@ -7,10 +7,10 @@ const Blog = () => {
   function renderBlogData() {
     return (
       <div>
-        {blogData.map(blog => {
-          //hack, need to find a better way to filter the blogs...
-          //about md excerpt was being added
-          if (blog.node.frontmatter.title != "") {
+        {blogData
+          //hack filter out about page excerpt-->need to fix/use query filter
+          .filter(blog => blog.node.frontmatter.title !== "")
+          .map(blog => {
             return (
               <li key={blog.node.fields.slug}>
                 <Link to={`/blog/${blog.node.fields.slug}`}>
@@ -19,8 +19,7 @@ const Blog = () => {
                 <p>{blog.node.excerpt}</p>
               </li>
             )
-          }
-        })}
+          })}
       </div>
     )
   }
