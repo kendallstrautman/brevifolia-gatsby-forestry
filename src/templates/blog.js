@@ -9,6 +9,7 @@ export const getPostData = graphql`
       frontmatter {
         title
         author
+        latin_name
       }
       html
     }

@@ -8,14 +8,18 @@ const Blog = () => {
     return (
       <div>
         {blogData.map(blog => {
-          return (
-            <li key={blog.node.fields.slug}>
-              <Link to={`/blog/${blog.node.fields.slug}`}>
-                <h2>{blog.node.frontmatter.title}</h2>
-              </Link>
-              <p>{blog.node.excerpt}</p>
-            </li>
-          )
+          //hack, need to find a better way to filter the blogs...
+          //about md excerpt was being added
+          if (blog.node.frontmatter.title != "") {
+            return (
+              <li key={blog.node.fields.slug}>
+                <Link to={`/blog/${blog.node.fields.slug}`}>
+                  <h2>{blog.node.frontmatter.title}</h2>
+                </Link>
+                <p>{blog.node.excerpt}</p>
+              </li>
+            )
+          }
         })}
       </div>
     )
