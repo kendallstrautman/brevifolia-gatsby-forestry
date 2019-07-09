@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import { graphql } from "gatsby"
 
+//dynamic query, must occur within each post context
 export const getPostData = graphql`
   query($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {

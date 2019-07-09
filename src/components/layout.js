@@ -2,7 +2,7 @@ import React from "react"
 import Header from "./header"
 import Footer from "./footer"
 import Helmet from "react-helmet"
-import useSiteMetadata from "../hooks/useSiteMetadata"
+import useSiteMetadata from "../static_queries/useSiteMetadata"
 import layoutStyles from "../styles/components/layout.module.scss"
 
 const Layout = props => {
