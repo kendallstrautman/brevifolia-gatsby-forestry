@@ -7,6 +7,10 @@ const useSiteMetadata = () => {
         siteMetadata {
           title
           description
+          about
+          contact {
+            email
+          }
         }
       }
     }

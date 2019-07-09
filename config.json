@@ -1,4 +1,6 @@
 {
   "title": "A Lumberjack's Blog",
-  "description": "Notes on the arboreal universe, tips on using Forestry with Gatsby."
+  "description": "Notes on the arboreal universe, tips on using Forestry with Gatsby.",
+  "about": "This Lumberjack hails from the Pacific Northwest, specializing in fir, spruce & pine.",
+  "contact": {"email": "info@forestry.io"}
 }
