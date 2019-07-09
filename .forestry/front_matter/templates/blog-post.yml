@@ -17,3 +17,9 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
+- name: latin_name
+  type: text
+  config:
+    required: false
+  label: latin name
+  description: enter latin tree name here
