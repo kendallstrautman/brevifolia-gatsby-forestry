@@ -1,15 +1,30 @@
 import React from "react"
-import Layout from "../components/layout"
+import { Link } from "gatsby"
+import useBlogData from "../hooks/useBlogData"
 
-const BlogPost = () => {
+const Blog = () => {
+  const blogData = useBlogData()
+  function renderBlogData() {
+    return (
+      <div>
+        {blogData.map(blog => {
+          return (
+            <li>
+              <Link>
+                <h2>{blog.node.frontmatter.title}</h2>
+              </Link>
+              <p>{blog.node.excerpt}</p>
+            </li>
+          )
+        })}
+      </div>
+    )
+  }
   return (
-    <Layout>
-      <section>
-        <h1>Were Doug Fir really taller than redwoods?</h1>
-        <p>yes, yes they were.</p>
-      </section>
-    </Layout>
+    <section>
+      <ul>{renderBlogData()}</ul>
+    </section>
   )
 }
 
-export default BlogPost
+export default Blog
