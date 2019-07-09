@@ -12,5 +12,14 @@ module.exports = {
     {
       resolve: `gatsby-plugin-react-helmet`,
     },
+    {
+      resolve: `gatsby-mdx`,
+      options: {
+        defaultLayouts: {
+          //loads all mdx files with the layout component
+          default: require.resolve("./src/components/layout.js"),
+        },
+      },
+    },
   ],
 }
