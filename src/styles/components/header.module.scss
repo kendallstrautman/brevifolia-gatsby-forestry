@@ -1,5 +1,4 @@
 
-
 .header {
   width: 100vw;
   display: flex;
@@ -13,17 +12,17 @@
   background-color: #59d4af;
   color: white;
   flex-grow: 1;
-  min-height: 28vh;
+  min-height: 33vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   span {
-    margin-left: 8vw;
     padding: 1.5rem;
+    text-align: center;
   }
-  h1 {
-    font-size: 2.25rem;
-    padding-bottom: 1rem;
+  p {
+    margin-bottom: 0;
   }
 }
 
@@ -34,8 +33,17 @@
   justify-content: space-between;
   display: flex;
   align-items: center;
+  img {
+    margin-bottom: 0;
+  }
 }
 
 .navItemActive {
   font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .subheader {
+    min-height: 22vh;
+  }
 }

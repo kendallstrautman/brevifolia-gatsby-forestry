@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import useBlogData from "../static_queries/useBlogData"
+import blogListStyles from "../styles/components/bloglist.module.scss"
 
 const Blog = () => {
   const blogData = useBlogData()
@@ -8,11 +9,10 @@ const Blog = () => {
     return (
       <div>
         {blogData
-          //hack filter out about page excerpt-->need to fix/use query filter
           .filter(blog => blog.node.frontmatter.title !== "")
           .map(blog => {
             return (
-              <li key={blog.node.fields.slug}>
+              <li className={blogListStyles.li} key={blog.node.fields.slug}>
                 <Link to={`/blog/${blog.node.fields.slug}`}>
                   <h2>{blog.node.frontmatter.title}</h2>
                 </Link>
@@ -25,7 +25,7 @@ const Blog = () => {
   }
   return (
     <section>
-      <ul>{renderBlogData()}</ul>
+      <ul className={blogListStyles.list}>{renderBlogData()}</ul>
     </section>
   )
 }
