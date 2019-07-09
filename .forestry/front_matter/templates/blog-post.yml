@@ -24,3 +24,5 @@ fields:
     required: false
   label: latin name
   description: enter latin tree name here
+pages:
+- src/content/posts/the-oldest-living-organism-on-the-planet.md
