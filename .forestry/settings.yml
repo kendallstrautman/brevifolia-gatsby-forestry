@@ -25,7 +25,6 @@ sections:
 - type: document
   path: config.json
   label: Site Info
-  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
