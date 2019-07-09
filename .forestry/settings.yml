@@ -7,6 +7,12 @@ sections:
 - type: heading
   label: Content
 - type: directory
+  path: ''
+  label: Pages
+  create: documents
+  match: "*.md"
+  new_doc_ext: ".md"
+- type: directory
   path: src/content/posts
   label: Blog Posts
   create: documents
