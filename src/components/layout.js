@@ -1,13 +1,22 @@
 import React from "react"
 import Header from "./header"
 import Footer from "./footer"
+import Helmet from "react-helmet"
+import useSiteMetadata from "../hooks/useSiteMetadata"
 import layoutStyles from "../styles/components/layout.module.scss"
 
-const Layout = ({ children }) => {
+const Layout = props => {
+  const { title, description } = useSiteMetadata()
+
   return (
     <section className={layoutStyles.layout}>
-      <Header />
-      <div className={layoutStyles.content}>{children}</div>
+      <Helmet>
+        <html lang="en" />
+        <title>{title}</title>
+        <meta name="description" content={description} />
+      </Helmet>
+      <Header title={title} description={description} />
+      <div className={layoutStyles.content}>{props.children}</div>
       <Footer />
     </section>
   )

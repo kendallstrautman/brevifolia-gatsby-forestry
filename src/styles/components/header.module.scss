@@ -1,3 +1,5 @@
+
+
 .header {
   width: 100vw;
   display: flex;
@@ -11,7 +13,7 @@
   background-color: #59d4af;
   color: white;
   flex-grow: 1;
-  min-height: 25vh;
+  min-height: 28vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -32,4 +34,8 @@
   justify-content: space-between;
   display: flex;
   align-items: center;
+}
+
+.navItemActive {
+  font-weight: bold;
 }
