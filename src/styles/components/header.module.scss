@@ -1,0 +1,35 @@
+.header {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  a {
+    padding: 1.5rem;
+  }
+}
+
+.subheader {
+  background-color: #59d4af;
+  color: white;
+  flex-grow: 1;
+  min-height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  span {
+    margin-left: 8vw;
+    padding: 1.5rem;
+  }
+  h1 {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+  }
+}
+
+.nav {
+  height: 5rem;
+  border-bottom: 1px solid #f1f3f5;
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}

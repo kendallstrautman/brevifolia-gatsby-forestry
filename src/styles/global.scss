@@ -1,0 +1,21 @@
+body {
+  font-family: "Avenir", "Helvetica Neue", Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+h1, div, p, section, span,a {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color .15s ease;
+}
+
+a:hover {
+  color: #59d4af;
+  transition: color .15s ease;
+}
