@@ -9,8 +9,8 @@ const Blog = () => {
       <div>
         {blogData.map(blog => {
           return (
-            <li>
-              <Link>
+            <li key={blog.node.frontmatter.slug}>
+              <Link to={`/blog/${blog.node.frontmatter.slug}`}>
                 <h2>{blog.node.frontmatter.title}</h2>
               </Link>
               <p>{blog.node.excerpt}</p>

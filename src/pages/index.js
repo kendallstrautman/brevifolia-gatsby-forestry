@@ -1,13 +1,12 @@
 import React from "react"
-import { Link } from "gatsby"
 import Layout from "../components/layout"
-import Blog from "./blog"
+import BlogList from "../components/blogList"
 
 const IndexPage = () => {
   return (
     <Layout>
       <section>
-        <Blog />
+        <BlogList />
       </section>
     </Layout>
   )
