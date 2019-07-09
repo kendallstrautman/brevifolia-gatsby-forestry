@@ -7,11 +7,11 @@ sections:
 - type: heading
   label: Content
 - type: directory
-  path: ''
+  path: src/pages
   label: Pages
   create: documents
   match: "*.md"
-  new_doc_ext: ".md"
+  new_doc_ext: md
 - type: directory
   path: src/content/posts
   label: Blog Posts
