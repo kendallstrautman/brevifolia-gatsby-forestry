@@ -17,6 +17,7 @@ export const getPostData = graphql`
 
 const Blog = props => {
   const data = props.data.markdownRemark
+  console.log(data.frontmatter)
   return (
     <Layout>
       <h1>{data.frontmatter.title}</h1>

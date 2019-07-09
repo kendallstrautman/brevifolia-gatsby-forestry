@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import useBlogData from "../hooks/useBlogData"
+import useBlogData from "../static_queries/useBlogData"
 
 const Blog = () => {
   const blogData = useBlogData()
