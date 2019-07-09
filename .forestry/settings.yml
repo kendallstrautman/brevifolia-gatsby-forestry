@@ -20,6 +20,11 @@ sections:
   new_doc_ext: md
   templates:
   - blog-post
+- type: heading
+  label: General Config
+- type: document
+  path: config.json
+  label: Site Info
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
