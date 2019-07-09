@@ -5,6 +5,10 @@ body {
   overflow-x: hidden;
 }
 
+h1, div, p, section, span,a {
+  margin: 0;
+}
+
 a {
   text-decoration: none;
   color: inherit;

@@ -27,10 +27,12 @@ const Header = () => {
         </div>
       </nav>
       <div className={headerStyles.subheader}>
-        <h1>A Lumberjack's Blog</h1>
-        <p>
-          Notes on the Arboreal universe, tips on using Forestry with Gatsby.
-        </p>
+        <span>
+          <h1>A Lumberjack's Blog</h1>
+          <p>
+            Notes on the Arboreal universe, tips on using Forestry with Gatsby.
+          </p>
+        </span>
       </div>
     </header>
   )
