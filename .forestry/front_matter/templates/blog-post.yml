@@ -8,3 +8,12 @@ fields:
 - type: text
   name: author
   label: author
+- name: date
+  type: datetime
+  label: date
+  description: Date post was created
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
