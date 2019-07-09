@@ -1,6 +1,6 @@
 ---
 title: The most incredible juniper
-slug: juniper
+slug: rocky-mountain-juniper
 author: Juniperus scopulorum
 ---
 

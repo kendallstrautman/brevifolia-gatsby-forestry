@@ -8,11 +8,11 @@ const useBlogData = () => {
           node {
             frontmatter {
               title
-              slug
-              author
             }
-            html
             excerpt
+            fields {
+              slug
+            }
           }
         }
       }
