@@ -29,7 +29,7 @@ build:
   publish_command: gatsby build
   preview_output_directory: public
   output_directory: public
-  instant_preview_command: gatsby develop -H 0.0.0.0 -p 8080
+  instant_preview_command: yarn develop
   install_dependencies_command: yarn install
   preview_docker_image: node:10
   mount_path: "/srv"
