@@ -1,10 +1,11 @@
 import React from "react"
 import Layout from "../components/layout"
+import aboutStyles from "../styles/components/about.module.scss"
 
 const About = () => {
   return (
     <Layout>
-      <section>
+      <section className={aboutStyles.about_blurb}>
         <div>
           Lumberjacks are North American workers in the logging industry who
           perform the initial harvesting and transport of trees for ultimate
