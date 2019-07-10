@@ -32,6 +32,7 @@ module.exports = {
       options: {
         plugins: [
           "gatsby-remark-relative-images",
+          "gatsby-remark-normalize-paths",
           {
             resolve: "gatsby-remark-images",
             options: {

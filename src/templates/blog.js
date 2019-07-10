@@ -11,7 +11,13 @@ export const getPostData = graphql`
         title
         author
         date(formatString: "MM/DD/YY")
-        hero_image
+        hero_image {
+          childImageSharp {
+            fluid(maxWidth: 1000) {
+              src
+            }
+          }
+        }
       }
       html
     }
@@ -20,14 +26,12 @@ export const getPostData = graphql`
 
 const Blog = props => {
   const data = props.data.markdownRemark
-  console.log(data.frontmatter.hero_image)
-  const heroImg = data.frontmatter.hero_image.slice(1)
-  console.log(heroImg)
+  console.log(data.frontmatter.hero_image.childImageSharp.fluid.src)
   return (
     <Layout>
       <figure>
         <img
-          src={data.frontmatter.hero_image}
+          src={data.frontmatter.hero_image.childImageSharp.fluid.src}
           alt={`blog_hero_${data.frontmatter.title}`}
         />
       </figure>

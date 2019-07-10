@@ -15,8 +15,8 @@ const Blog = () => {
               <li className={blogListStyles.li} key={blog.node.fields.slug}>
                 <Link to={`/blog/${blog.node.fields.slug}`}>
                   <h2>{blog.node.frontmatter.title}</h2>
-                  <h2>{blog.node.frontmatter.date}</h2>
                 </Link>
+                <p>{blog.node.frontmatter.date}</p>
                 <p>{blog.node.excerpt}</p>
               </li>
             )

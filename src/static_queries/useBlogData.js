@@ -10,7 +10,13 @@ const useBlogData = () => {
               date(formatString: "MM/DD/YY")
               author
               title
-              hero_image
+              hero_image {
+                childImageSharp {
+                  fluid {
+                    srcSet
+                  }
+                }
+              }
             }
             excerpt(pruneLength: 200)
             fields {
