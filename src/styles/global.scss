@@ -8,10 +8,12 @@ body {
 a {
   text-decoration: none;
   color: inherit;
+  -webkit-transition: color .15s ease;
   transition: color .15s ease;
 }
 
 a:hover {
   color: #59d4af;
+  -webkit-transition: color .15s ease;
   transition: color .15s ease;
 }
