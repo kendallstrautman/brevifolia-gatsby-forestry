@@ -10,6 +10,7 @@ const useBlogData = () => {
               date(formatString: "MM/DD/YY")
               author
               title
+              hero_image
             }
             excerpt(pruneLength: 200)
             fields {

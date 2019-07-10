@@ -11,6 +11,7 @@ export const getPostData = graphql`
         title
         author
         date(formatString: "MM/DD/YY")
+        hero_image
       }
       html
     }
@@ -19,8 +20,17 @@ export const getPostData = graphql`
 
 const Blog = props => {
   const data = props.data.markdownRemark
+  console.log(data.frontmatter.hero_image)
+  const heroImg = data.frontmatter.hero_image.slice(1)
+  console.log(heroImg)
   return (
     <Layout>
+      <figure>
+        <img
+          src={data.frontmatter.hero_image}
+          alt={`blog_hero_${data.frontmatter.title}`}
+        />
+      </figure>
       <h1>{data.frontmatter.title}</h1>
       <h2>{data.frontmatter.date}</h2>
       <p>By: {data.frontmatter.author}</p>
