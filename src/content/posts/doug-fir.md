@@ -1,6 +1,5 @@
 ---
 title: The truth about Doug-fir
-slug: doug-fir
 author: David Douglas
 date: 2019-07-09T16:04:44Z
 

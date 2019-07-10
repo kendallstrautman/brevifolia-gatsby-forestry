@@ -7,9 +7,11 @@ const useBlogData = () => {
         edges {
           node {
             frontmatter {
+              date(formatString: "MM/DD/YY")
+              author
               title
             }
-            excerpt
+            excerpt(pruneLength: 200)
             fields {
               slug
             }

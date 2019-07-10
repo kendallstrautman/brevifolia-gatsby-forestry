@@ -1,8 +1,6 @@
 ---
-date: 2019-07-09T20:58:20Z
 title: The oldest living organism on the planet
 author: Donal Rusk Currey
-latin_name: Pinus longaeva
 
 ---
 ![](/src/content/images/ari-rose-NbBIeu1N39M-unsplash.jpg)

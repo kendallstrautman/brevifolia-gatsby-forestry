@@ -10,7 +10,7 @@ export const getPostData = graphql`
       frontmatter {
         title
         author
-        latin_name
+        date(formatString: "MM/DD/YY")
       }
       html
     }
@@ -22,6 +22,7 @@ const Blog = props => {
   return (
     <Layout>
       <h1>{data.frontmatter.title}</h1>
+      <h2>{data.frontmatter.date}</h2>
       <p>By: {data.frontmatter.author}</p>
       <div dangerouslySetInnerHTML={{ __html: data.html }}></div>
     </Layout>
