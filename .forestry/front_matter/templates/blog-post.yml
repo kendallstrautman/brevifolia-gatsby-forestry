@@ -21,7 +21,7 @@ fields:
 - name: hero_image
   type: file
   config:
-    maxSize: 250
+    maxSize: '10'
   label: hero image
   description: Enter hero image for blog post here
 pages:
