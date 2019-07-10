@@ -1,7 +1,8 @@
 ---
 title: The truth about Doug-fir
 author: David Douglas
-date: 2019-07-09T16:04:44Z
+date: 2019-07-09T16:04:44.000+00:00
+hero_image: "/src/content/images/markus-spiske-S07JE5Tonzs-unsplash.jpg"
 
 ---
 ![Doug-fir](../images/doug-fir.jpg)
