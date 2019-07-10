@@ -1,7 +1,8 @@
 ---
 title: The most incredible juniper
 author: Walt Whitman
-date: 2019-07-08T16:05:29Z
+date: 2019-07-08T16:05:29.000+00:00
+hero_image: "/src/content/images/markus-spiske-S07JE5Tonzs-unsplash.jpg"
 
 ---
 ![Juniper](../images/juniper.jpg)
