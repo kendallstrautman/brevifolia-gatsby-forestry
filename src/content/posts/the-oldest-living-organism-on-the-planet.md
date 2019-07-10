@@ -1,6 +1,8 @@
 ---
 title: The oldest living organism on the planet
 author: Donal Rusk Currey
+date: 2019-07-10T07:00:00Z
+hero_image: "/src/content/images/markus-spiske-S07JE5Tonzs-unsplash.jpg"
 
 ---
 ![](/src/content/images/ari-rose-NbBIeu1N39M-unsplash.jpg)
