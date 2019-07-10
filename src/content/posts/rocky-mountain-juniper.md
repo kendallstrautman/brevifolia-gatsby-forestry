@@ -3,6 +3,7 @@ title: The most incredible juniper
 slug: rocky-mountain-juniper
 author: Walt Whitman
 latin_name: Juniperus scopulorum
+date: 2019-07-08T16:05:29Z
 
 ---
 ![Juniper](../images/juniper.jpg)
