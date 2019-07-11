@@ -10,6 +10,10 @@ const useSiteMetadata = () => {
           about
           contact {
             email
+            twitter_handle
+            twitter_url
+            github_handle
+            github_url
           }
         }
       }
