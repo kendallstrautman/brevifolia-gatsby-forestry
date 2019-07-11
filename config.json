@@ -1,6 +1,6 @@
 {
-  "title": "A Lumberjack's Blog",
-  "description": "Notes on the arboreal universe, tips on using Forestry with Gatsby.",
+  "title": "A Blog Title",
+  "description": "Starter blog using Forestry CMS with Gatsby.",
   "contact": {
     "email": "info@forestry.io",
     "twitter_handle": "@forestryio",

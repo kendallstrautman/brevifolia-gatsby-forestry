@@ -7,7 +7,6 @@ const useSiteMetadata = () => {
         siteMetadata {
           title
           description
-          about
           contact {
             email
             twitter_handle

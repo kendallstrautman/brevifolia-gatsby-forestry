@@ -15,9 +15,8 @@ const Layout = props => {
         <title>{title}</title>
         <meta name="description" content={description} />
       </Helmet>
-      <Header title={title} description={description} />
+      <Header title={title} />
       <div className={layoutStyles.content}>{props.children}</div>
-      <Footer />
     </section>
   )
 }

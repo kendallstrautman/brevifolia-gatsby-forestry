@@ -3,7 +3,7 @@ import Layout from "../components/layout"
 import aboutStyles from "../styles/components/about.module.scss"
 import useSiteMetaData from "../static_queries/useSiteMetadata"
 
-const About = () => {
+const Info = () => {
   const { contact } = useSiteMetaData()
   return (
     <Layout>
@@ -25,4 +25,4 @@ const About = () => {
   )
 }
 
-export default About
+export default Info

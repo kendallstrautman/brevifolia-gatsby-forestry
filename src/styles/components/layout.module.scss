@@ -1,7 +1,6 @@
 .layout {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   min-height: 100vh;
 }
 
@@ -11,4 +10,12 @@
   max-width: 768px;
   margin: 2vw auto;
   padding: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .layout {
+    flex-direction: row;
+  }
+  
+ 
 }
