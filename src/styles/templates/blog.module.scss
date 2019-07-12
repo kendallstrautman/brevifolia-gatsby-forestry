@@ -1,0 +1,29 @@
+.blog {
+  padding: 2.5rem 1.5rem;
+  h1 {
+    margin-bottom: .7rem;
+  }
+  p {
+    font-size: 1.125rem;
+    line-height: 1.4;
+  }
+}
+
+.blog__hero {
+  width: 66vw;
+  margin: 0 auto;
+}
+
+.blog__info {
+  width: 67vw;
+}
+
+.blog__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  span{
+    width: 66vw;
+    margin: 2rem auto;
+  }
+}

@@ -6,13 +6,14 @@ import layoutStyles from "../styles/components/layout.module.scss"
 
 const Layout = props => {
   const { title, description, primaryColor } = useSiteMetadata()
-  console.log(primaryColor)
-
   return (
     <section
       className={`${layoutStyles.layout} ${window.location.pathname ==
         "/info" && layoutStyles.info_page}`}
-      style={{ backgroundColor: primaryColor }}
+      style={{
+        backgroundColor: `${window.location.pathname == "/info" &&
+          primaryColor}`,
+      }}
     >
       <Helmet>
         <html lang="en" />
