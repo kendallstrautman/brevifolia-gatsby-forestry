@@ -8,10 +8,12 @@ const Layout = props => {
   const { title, description, primaryColor } = useSiteMetadata()
   return (
     <section
-      className={`${layoutStyles.layout} ${window.location.pathname ==
-        "/info" && layoutStyles.info_page}`}
+      className={`${layoutStyles.layout} ${typeof window !== "undefined" &&
+        window.location.pathname == "/info" &&
+        layoutStyles.info_page}`}
       style={{
-        backgroundColor: `${window.location.pathname == "/info" &&
+        backgroundColor: `${typeof window !== "undefined" &&
+          window.location.pathname == "/info" &&
           primaryColor}`,
       }}
     >
