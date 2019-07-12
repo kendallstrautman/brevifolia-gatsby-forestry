@@ -20,10 +20,18 @@ const Header = props => {
         <div>
           <h1>
             <Link
-              to={window.location.pathname == "/info" ? "/" : "/info"}
+              to={
+                typeof window !== "undefined" &&
+                window.location.pathname == "/info"
+                  ? "/"
+                  : "/info"
+              }
               activeClassName={headerStyles.navItemActive}
             >
-              {window.location.pathname == "/info" ? "close" : "info"}
+              {typeof window !== "undefined" &&
+              window.location.pathname == "/info"
+                ? "close"
+                : "info"}
             </Link>
           </h1>
         </div>
