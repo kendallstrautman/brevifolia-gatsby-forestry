@@ -43,7 +43,9 @@ const Blog = props => {
         <h1 className={blogTemplateStyles.blog__info}>
           {data.frontmatter.title}
         </h1>
-        <h2>{replaceDateSlash(data.frontmatter.date)}</h2>
+        <h2 className={blogTemplateStyles.blog__info}>
+          {replaceDateSlash(data.frontmatter.date)}
+        </h2>
         <div
           className={blogTemplateStyles.blog__body}
           dangerouslySetInnerHTML={{ __html: data.html }}
