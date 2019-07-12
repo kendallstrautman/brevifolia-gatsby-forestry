@@ -5,8 +5,9 @@ import headerStyles from "../styles/components/header.module.scss"
 const Header = props => {
   return (
     <header
-      className={`${headerStyles.header} ${window.location.pathname ==
-        "/info" && headerStyles.info_page}`}
+      className={`${headerStyles.header} ${typeof window !== "undefined" &&
+        window.location.pathname == "/info" &&
+        headerStyles.info_page}`}
     >
       <nav
         className={headerStyles.nav}
