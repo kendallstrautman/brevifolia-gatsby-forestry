@@ -1,8 +1,7 @@
 body {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
-  margin: 0;
-  padding: 0;
   overflow-x: hidden;
+  color: #000;
 }
 
 a {
@@ -16,4 +15,15 @@ a:hover {
   color: #59d4af;
   -webkit-transition: color .15s ease;
   transition: color .15s ease;
+}
+
+//TYPOGRAPHY-------------------------------------
+
+h1, h2 {
+  font-weight: normal;
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1.075rem;
 }

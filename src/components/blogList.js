@@ -5,6 +5,10 @@ import blogListStyles from "../styles/components/bloglist.module.scss"
 
 const Blog = () => {
   const blogData = useBlogData()
+  function adjustDateFormat(date) {
+    const newDateStr = date.replace(/\//g, ".")
+    return newDateStr
+  }
   function renderBlogData() {
     return (
       <div>
@@ -16,8 +20,9 @@ const Blog = () => {
                 <Link to={`/blog/${blog.node.fields.slug}`}>
                   <h2>{blog.node.frontmatter.title}</h2>
                 </Link>
-                <p>{blog.node.frontmatter.date}</p>
+                <h2>{adjustDateFormat(blog.node.frontmatter.date)}</h2>
                 <p>{blog.node.excerpt}</p>
+                <span />
               </li>
             )
           })}

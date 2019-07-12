@@ -14,9 +14,11 @@ const Header = props => {
           <h1>{props.title}</h1>
         </Link>
         <div>
-          <Link to="/info" activeClassName={headerStyles.navItemActive}>
-            Info
-          </Link>
+          <h1>
+            <Link to="/info" activeClassName={headerStyles.navItemActive}>
+              info
+            </Link>
+          </h1>
         </div>
       </nav>
     </header>
