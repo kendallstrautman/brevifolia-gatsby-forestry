@@ -10,7 +10,7 @@
 }
 
 .blog__hero {
-  width: 75%;
+  width: 70%;
   margin: 1rem auto 2rem auto;
   img {
     margin-bottom: 0;
@@ -26,7 +26,7 @@
   flex-direction: column;
   justify-content: center;
   span{
-    width: 75%;
+    width: 70%;
     margin: 2rem auto;
   }
   a {
@@ -36,17 +36,17 @@
 
 @media (min-width: 768px) {
   .blog {
-    padding: 0 3rem 2.5rem 3rem;
+    padding: 0 10% 2.5rem 10%;
     display: flex;
     flex-direction: column;
   }
   .blog__hero {
     img {
-      width: 66%;
+      width: 100%;
       max-width: 900px;
     }
     width: 100%;
-    height: 100vh;
+    min-height: 80vh;
     margin: 0;
     display: flex;
     justify-content: center;
@@ -60,7 +60,7 @@
     max-width: 900px;
     padding-bottom: 1.5rem;
     span {
-      width: 66%;
+      width: 100%;
       margin: 3rem auto;
     }
   }
@@ -68,7 +68,15 @@
 
 @media (min-width: 1680px) {
   .blog {
+    padding: 0 15% 4rem 15%;
     justify-content: center;
     align-items: center;
+  }
+  .blog__hero {
+    img {
+      // height: 66%;
+      // width: auto;
+      max-width: 900px;
+    }
   }
 } 
