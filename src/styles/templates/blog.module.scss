@@ -15,7 +15,7 @@
 }
 
 .blog__info {
-  width: 67vw;
+  width: 75vw;
 }
 
 .blog__body {
@@ -25,5 +25,8 @@
   span{
     width: 66vw;
     margin: 2rem auto;
+  }
+  a {
+    padding-bottom: 1.5rem;
   }
 }
