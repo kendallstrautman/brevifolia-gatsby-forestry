@@ -11,3 +11,11 @@
     max-width: 900px;
   }
 }
+
+@media(min-width: 768px) {
+  .list {
+    li {
+      padding: 2rem;
+    }
+  }
+}
