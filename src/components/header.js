@@ -4,7 +4,10 @@ import headerStyles from "../styles/components/header.module.scss"
 
 const Header = props => {
   return (
-    <header className={headerStyles.header}>
+    <header
+      className={`${headerStyles.header} ${window.location.pathname ==
+        "/info" && headerStyles.info_page}`}
+    >
       <nav
         className={headerStyles.nav}
         role="navigation"
@@ -15,8 +18,11 @@ const Header = props => {
         </Link>
         <div>
           <h1>
-            <Link to="/info" activeClassName={headerStyles.navItemActive}>
-              info
+            <Link
+              to={window.location.pathname == "/info" ? "/" : "/info"}
+              activeClassName={headerStyles.navItemActive}
+            >
+              {window.location.pathname == "/info" ? "close" : "info"}
             </Link>
           </h1>
         </div>

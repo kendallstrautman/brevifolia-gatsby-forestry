@@ -14,6 +14,8 @@ const useSiteMetadata = () => {
             github_handle
             github_url
           }
+          primaryColor
+          repoUrl
         }
       }
     }

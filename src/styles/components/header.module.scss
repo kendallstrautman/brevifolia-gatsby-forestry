@@ -2,6 +2,11 @@
   h1 {
     margin-bottom: 0; 
   }
+  &.info_page {
+    nav {
+      border-color: #fff;
+    }
+  }
 }
 
 .nav {
@@ -15,10 +20,12 @@
   img {
     margin-bottom: 0;
   }
-}
-
-.navItemActive {
-  font-weight: bold;
+  a {
+    transition: color .15s ease;
+  }
+  a:hover {
+    color: #AC0217;
+  }
 }
 
 @media (min-width: 768px) {
@@ -45,9 +52,5 @@
     img {
       margin-bottom: 0;
     }
-  }
-  
-  .navItemActive {
-    font-weight: bold;
   }
 }

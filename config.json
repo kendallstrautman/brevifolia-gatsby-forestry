@@ -7,5 +7,7 @@
     "twitter_url": "https://twitter.com/forestryio",
     "github_handle": "forestryio",
     "github_url": "https://github.com/forestryio"
-  }
+  },
+  "primary_color": "#AC0217",
+  "repository_url": "https://github.com/forestryio/starter-blog-gatsby"
 }
