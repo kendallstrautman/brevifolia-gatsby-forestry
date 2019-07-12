@@ -13,6 +13,11 @@
 
 @media (min-width: 768px) {
   .layout {
-    flex-direction: row;
+    display: block;
+  }
+  .content {
+    flex-grow: none;
+    width: 65vw;
+    margin-left: 35vw;
   }
 }

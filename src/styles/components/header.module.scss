@@ -14,39 +14,26 @@
   border-bottom: 2px solid #000;
   display: flex;
   justify-content: space-between;
-  display: flex;
   flex-direction: row;
   align-items: center;
   img {
     margin-bottom: 0;
   }
-  a {
-    transition: color .15s ease;
-  }
-  a:hover {
-    color: #AC0217;
-  }
 }
 
 @media (min-width: 768px) {
   .header {
-    h1 {
-      width: 28vw;
-      margin-bottom: 0; 
-    }
-    a {
-      padding: 0;
-    }
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
   }
   
   .nav {
-    width: 40vw;
+    width: 35vw;
     height: 100%;
     border-right: 2px solid #000;
     border-bottom: none;
-    display: flex;
-    justify-content: space-between;
-    display: flex;
     flex-direction: column;
     align-items: flex-start;
     img {
