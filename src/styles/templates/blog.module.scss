@@ -61,8 +61,17 @@
     padding-bottom: 1.5rem;
     span {
       width: 100%;
-      margin: 3rem auto;
+      margin: 2rem auto;
     }
+  }
+}
+
+@media(min-width: 1280px) {
+  .blog__hero {
+    min-height: 85vh;
+  }
+  .blog__body {
+    margin: 2.5rem 0;
   }
 }
 
@@ -74,9 +83,10 @@
   }
   .blog__hero {
     img {
-      // height: 66%;
-      // width: auto;
       max-width: 900px;
     }
+  }
+  .blog__body {
+    margin: 3rem 0;
   }
 } 
