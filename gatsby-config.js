@@ -4,8 +4,10 @@ module.exports = {
   siteMetadata: {
     title: config.title,
     description: config.description,
+    repoUrl: config.repository_url,
     about: config.about,
     contact: config.contact,
+    primaryColor: config.primary_color,
   },
   plugins: [
     "gatsby-plugin-sass",

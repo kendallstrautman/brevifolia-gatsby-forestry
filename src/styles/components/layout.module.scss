@@ -1,14 +1,23 @@
 .layout {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   min-height: 100vh;
+  &.info_page {
+    color: #fff;
+  }
 }
 
 .content {
   flex-grow: 1;
-  min-width: 320px;
-  max-width: 768px;
-  margin: 2vw auto;
-  padding: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .layout {
+    display: block;
+  }
+  .content {
+    flex-grow: none;
+    width: 65vw;
+    margin-left: 35vw;
+  }
 }

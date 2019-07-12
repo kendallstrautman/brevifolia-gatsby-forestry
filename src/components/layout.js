@@ -1,23 +1,27 @@
 import React from "react"
 import Header from "./header"
-import Footer from "./footer"
 import Helmet from "react-helmet"
 import useSiteMetadata from "../static_queries/useSiteMetadata"
 import layoutStyles from "../styles/components/layout.module.scss"
 
 const Layout = props => {
-  const { title, description } = useSiteMetadata()
-
+  const { title, description, primaryColor } = useSiteMetadata()
   return (
-    <section className={layoutStyles.layout}>
+    <section
+      className={`${layoutStyles.layout} ${window.location.pathname ==
+        "/info" && layoutStyles.info_page}`}
+      style={{
+        backgroundColor: `${window.location.pathname == "/info" &&
+          primaryColor}`,
+      }}
+    >
       <Helmet>
         <html lang="en" />
         <title>{title}</title>
         <meta name="description" content={description} />
       </Helmet>
-      <Header title={title} description={description} />
+      <Header title={title} />
       <div className={layoutStyles.content}>{props.children}</div>
-      <Footer />
     </section>
   )
 }
