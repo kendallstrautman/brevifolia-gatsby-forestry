@@ -1,10 +1,17 @@
 .list {
   li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 38vh;
     padding: 1.5rem;
     margin-bottom: 0;
-    border-bottom: 2px solid #000;
+    border-bottom: 1px solid #EBEBEB;
   }
   h2 {
+    margin-bottom: .5rem;
+  }
+  h3 {
     margin-bottom: 1rem;
   }
   p {
@@ -15,6 +22,7 @@
 @media(min-width: 768px) {
   .list {
     li {
+      height: 33.333vh;
       padding: 2rem;
     }
   }

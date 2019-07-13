@@ -7,7 +7,7 @@ const useBlogData = () => {
         edges {
           node {
             frontmatter {
-              date(formatString: "MM/DD/YY")
+              date(formatString: "MMMM Do, YYYY")
               author
               title
               hero_image {

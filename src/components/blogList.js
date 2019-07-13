@@ -5,10 +5,10 @@ import blogListStyles from "../styles/components/bloglist.module.scss"
 
 const Blog = () => {
   const blogData = useBlogData()
-  function replaceDateSlash(date) {
-    const newDateStr = date.replace(/\//g, ".")
-    return newDateStr
-  }
+  // function replaceDateSlash(date) {
+  //   const newDateStr = date.replace(/\//g, ".")
+  //   return newDateStr
+  // }
   function renderBlogData() {
     return (
       <div>
@@ -19,7 +19,7 @@ const Blog = () => {
               <li className={blogListStyles.li} key={blog.node.fields.slug}>
                 <Link to={`/blog/${blog.node.fields.slug}`}>
                   <h2>{blog.node.frontmatter.title}</h2>
-                  <h2>{replaceDateSlash(blog.node.frontmatter.date)}</h2>
+                  <h3>{blog.node.frontmatter.date}</h3>
                 </Link>
                 <p>{blog.node.excerpt}</p>
               </li>
