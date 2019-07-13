@@ -11,7 +11,7 @@ export const getPostData = graphql`
       frontmatter {
         title
         author
-        date(formatString: "MM/DD/YY")
+        date(formatString: "MMMM Do, YYYY")
         hero_image {
           childImageSharp {
             fluid(maxWidth: 1000) {
@@ -27,10 +27,6 @@ export const getPostData = graphql`
 
 const Blog = props => {
   const data = props.data.markdownRemark
-  function replaceDateSlash(date) {
-    const newDateStr = date.replace(/\//g, ".")
-    return newDateStr
-  }
   return (
     <Layout>
       <article className={blogTemplateStyles.blog}>
@@ -40,12 +36,10 @@ const Blog = props => {
             alt={`blog_hero_${data.frontmatter.title}`}
           />
         </figure>
-        <h1 className={blogTemplateStyles.blog__info}>
-          {data.frontmatter.title}
-        </h1>
-        <h2 className={blogTemplateStyles.blog__info}>
-          {replaceDateSlash(data.frontmatter.date)}
-        </h2>
+        <div className={blogTemplateStyles.blog__info}>
+          <h2>{data.frontmatter.title}</h2>
+          <h3>{data.frontmatter.date}</h3>
+        </div>
         <div
           className={blogTemplateStyles.blog__body}
           dangerouslySetInnerHTML={{ __html: data.html }}
