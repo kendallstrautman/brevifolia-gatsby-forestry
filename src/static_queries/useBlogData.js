@@ -13,7 +13,7 @@ const useBlogData = () => {
               hero_image {
                 childImageSharp {
                   fluid {
-                    srcSet
+                    src
                   }
                 }
               }

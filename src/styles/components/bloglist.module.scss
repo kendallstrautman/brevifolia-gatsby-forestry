@@ -1,10 +1,25 @@
 .list {
-  li{
+  .hero_image {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    img {
+      object-fit: cover;
+      object-position: 50% 50%;
+    }
+  }
+  .blog__info {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-height: 38vh;
     padding: 1.5rem;
+  }
+  
+  li{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 38vh;
     margin-bottom: 0;
     border-bottom: 1px solid #EBEBEB;
   }
@@ -22,8 +37,21 @@
 @media(min-width: 768px) {
   .list {
     li {
+      min-height: 250px;
       height: 33.333vh;
-      padding: 2rem;
+      // padding: 2rem;
+      flex-direction: row;
+    }
+    .hero_image {
+      height: 100%;
+      img {
+        min-width: 100%;
+        height: 100%;
+        width: auto;
+      }
+    }
+    .blog__info {
+      min-width: 70%;
     }
   }
 }

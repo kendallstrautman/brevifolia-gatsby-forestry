@@ -5,10 +5,6 @@ import blogListStyles from "../styles/components/bloglist.module.scss"
 
 const Blog = () => {
   const blogData = useBlogData()
-  // function replaceDateSlash(date) {
-  //   const newDateStr = date.replace(/\//g, ".")
-  //   return newDateStr
-  // }
   function renderBlogData() {
     return (
       <div>
@@ -16,13 +12,25 @@ const Blog = () => {
           .filter(blog => blog.node.frontmatter.title !== "")
           .map(blog => {
             return (
-              <li className={blogListStyles.li} key={blog.node.fields.slug}>
-                <Link to={`/blog/${blog.node.fields.slug}`}>
-                  <h2>{blog.node.frontmatter.title}</h2>
-                  <h3>{blog.node.frontmatter.date}</h3>
-                </Link>
-                <p>{blog.node.excerpt}</p>
-              </li>
+              <Link to={`/blog/${blog.node.fields.slug}`}>
+                <li className={blogListStyles.li} key={blog.node.fields.slug}>
+                  <div className={blogListStyles.hero_image}>
+                    <img
+                      src={
+                        blog.node.frontmatter.hero_image.childImageSharp.fluid
+                          .src
+                      }
+                      alt={`blog_hero_${blog.node.fields.slug}`}
+                    />
+                  </div>
+                  <div className={blogListStyles.blog__info}>
+                    <h2>{blog.node.frontmatter.title}</h2>
+                    <h3>{blog.node.frontmatter.date}</h3>
+
+                    <p>{blog.node.excerpt}</p>
+                  </div>
+                </li>
+              </Link>
             )
           })}
       </div>
