@@ -37,14 +37,14 @@ const Blog = props => {
           />
         </figure>
         <div className={blogTemplateStyles.blog__info}>
-          <h2>{data.frontmatter.title}</h2>
+          <h1>{data.frontmatter.title}</h1>
           <h3>{data.frontmatter.date}</h3>
         </div>
         <div
           className={blogTemplateStyles.blog__body}
           dangerouslySetInnerHTML={{ __html: data.html }}
         ></div>
-        <h2 className={blogTemplateStyles.blog__info}>
+        <h2 className={blogTemplateStyles.blog__footer}>
           Written By: {data.frontmatter.author}
         </h2>
       </article>
