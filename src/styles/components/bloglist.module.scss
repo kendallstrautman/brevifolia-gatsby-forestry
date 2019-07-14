@@ -1,22 +1,4 @@
 .list {
-  a:hover {
-    opacity: 1;
-    li {
-      div.hero_image {
-        img {
-          opacity: .8;
-          transition: opacity .3s ease; 
-        }
-      }
-      div.blog__info {
-        h2, h3, p {
-          transform: translateX(10px) ;
-          transition: transform .5s ease-out;
-        }
-        
-      }
-    }
-  }
   .hero_image {
     width: 100%;
     height: 33vh;
@@ -34,11 +16,11 @@
     flex-direction: column;
     justify-content: center;
     padding: 1.5rem 1.25rem;
-    transform: translateX(0px) ;
-    transition: transform .3s ease-in;
     border-bottom: 1px solid #EBEBEB;
     h2, h3, p {
+      -webkit-transform: translateX(0px);
       transform: translateX(0px) ;
+      -webkit-transition: transform .5 ease-out;
       transition: transform .5s ease-out;
     }
   }
@@ -64,6 +46,27 @@
 
 @media(min-width: 768px) {
   .list {
+    a:hover {
+      opacity: 1;
+      li {
+        div.hero_image {
+          img {
+            opacity: .8;
+            -webkit-transition: opacity .3 ease;
+            transition: opacity .3s ease; 
+          }
+        }
+        div.blog__info {
+          h2, h3, p {
+            -webkit-transform: translateX(10px);
+            transform: translateX(10px) ;
+            -webkit-transition: transform .5s ease-out;
+            transition: transform .5s ease-out;
+          }
+          
+        }
+      }
+    }
     li {
       min-height: 250px;
       height: 33.333vh;
