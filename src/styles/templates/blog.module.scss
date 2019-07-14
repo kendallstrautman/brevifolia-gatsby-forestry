@@ -80,18 +80,8 @@
   }
 }
 
-@media(min-width: 1280px) {
-  // .blog__body {
-  //   margin: 2.5rem 0;
-  // }
+@media(min-width: 1680px) {
+  .blog__info {
+    padding: 3rem 0;
+  }
 }
-
-@media (min-width: 1680px) {
-  // .blog {
-  //   justify-content: center;
-  //   align-items: center;
-  // }
-  // .blog__body {
-  //   margin: 3rem 0;
-  // }
-} 

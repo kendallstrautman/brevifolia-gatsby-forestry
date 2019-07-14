@@ -8,13 +8,13 @@ const Info = () => {
   return (
     <Layout>
       <section className={infoStyles.info_blurb}>
-        <h1>
+        <h2>
           This blog was created using <a href="https://forestry.io">Forestry</a>{" "}
           & <a href="https://gatsbyjs.com">Gatsby</a>
           <br />
           <br /> To get started, import this site into Forestry or checkout the
           repository <a href={repoUrl}>here</a>.
-        </h1>
+        </h2>
         <ul>
           <li>
             <h2>

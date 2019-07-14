@@ -14,7 +14,7 @@ export const getPostData = graphql`
         date(formatString: "MMMM Do, YYYY")
         hero_image {
           childImageSharp {
-            fluid(maxWidth: 1000) {
+            fluid(maxWidth: 1500) {
               src
             }
           }
