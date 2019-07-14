@@ -80,8 +80,11 @@
   }
 }
 
-@media(min-width: 1680px) {
+@media(min-width: 1440px) {
   .blog__info {
     padding: 3rem 0;
+  }
+  .blog__footer {
+    padding: 1rem 2rem 3rem 2rem;
   }
 }

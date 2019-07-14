@@ -17,21 +17,21 @@ const Info = () => {
         </h2>
         <ul>
           <li>
-            <h2>
+            <p>
               <a href={`mailto:${contact.email}`}>Email: {contact.email}</a>
-            </h2>
+            </p>
           </li>
           <li>
-            <h2>
+            <p>
               <a href={contact.twitter_url}>
                 Twitter: {contact.twitter_handle}
               </a>
-            </h2>
+            </p>
           </li>
           <li>
-            <h2>
+            <p>
               <a href={contact.github_url}>Github: {contact.github_handle}</a>
-            </h2>
+            </p>
           </li>
         </ul>
       </section>

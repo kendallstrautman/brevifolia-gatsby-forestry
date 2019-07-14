@@ -1,6 +1,9 @@
 .info_blurb {
   max-width: 800px;
   padding: 1.5rem 1.25rem;
+  p {
+    color: #EBEBEB;
+  }
 }
 
 @media (min-width: 768px) {
