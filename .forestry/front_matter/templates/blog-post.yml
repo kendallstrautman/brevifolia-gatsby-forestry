@@ -24,5 +24,15 @@ fields:
     maxSize: '10'
   label: hero image
   description: Enter hero image for blog post here
+- name: camelcasefield
+  type: text
+  config:
+    required: false
+  label: camelCaseField
+- name: camel_case_field
+  type: text
+  config:
+    required: false
+  label: camel case field
 pages:
 - src/content/posts/the-oldest-living-organism-on-the-planet.md
