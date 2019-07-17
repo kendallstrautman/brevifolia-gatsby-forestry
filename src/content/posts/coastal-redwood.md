@@ -4,6 +4,7 @@ author: Ricardo Nagaoka
 date: 2019-07-10T16:04:44.000+00:00
 hero_image: "/src/content/images/jj-ying-7JX0-bfiuxQ-unsplash.jpg"
 camelCaseField: Camels r kool
+camel_case_field: camels r kool
 ---
 
 Pseudotsuga menziesii is an evergreen conifer species in the pine family, Pinaceae. It is native to western North America and is known as Douglas fir,Douglas-fir,Oregon pine,and Columbian pine. There are two varieties: coast Douglas-fir (P. menziesii var. menziesii), and Rocky Mountain Douglas-fir (P. menziesii var. glauca).
