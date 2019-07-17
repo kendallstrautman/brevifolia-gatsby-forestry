@@ -4,16 +4,17 @@
     li {
       div.hero_image {
         img {
-          opacity: .8;
-          transition: opacity .3s ease; 
+          opacity: 0.8;
+          transition: opacity 0.3s ease;
         }
       }
       div.blog__info {
-        h2, h3, p {
-          transform: translateX(10px) ;
-          transition: transform .5s ease-out;
+        h2,
+        h3,
+        p {
+          transform: translateX(10px);
+          transition: transform 0.5s ease-out;
         }
-        
       }
     }
   }
@@ -26,7 +27,7 @@
       object-fit: cover;
       object-position: 50% 50%;
       opacity: 1;
-      transition: opacity .3s ease; 
+      transition: opacity 0.3s ease;
     }
   }
   .blog__info {
@@ -34,16 +35,18 @@
     flex-direction: column;
     justify-content: center;
     padding: 1.5rem 1.25rem;
-    transform: translateX(0px) ;
-    transition: transform .3s ease-in;
-    border-bottom: 1px solid #EBEBEB;
-    h2, h3, p {
-      transform: translateX(0px) ;
-      transition: transform .5s ease-out;
+    transform: translateX(0px);
+    transition: transform 0.3s ease-in;
+    border-bottom: 1px solid #ebebeb;
+    h2,
+    h3,
+    p {
+      transform: translateX(0px);
+      transition: transform 0.5s ease-out;
     }
   }
- 
-  li{
+
+  li {
     opacity: inherit;
     display: flex;
     justify-content: center;
@@ -52,7 +55,7 @@
     margin-bottom: 0;
   }
   h2 {
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
   }
   h3 {
     margin-bottom: 1rem;
@@ -62,7 +65,7 @@
   }
 }
 
-@media(min-width: 768px) {
+@media (min-width: 768px) {
   .list {
     li {
       min-height: 250px;
@@ -79,12 +82,11 @@
     }
     .blog__info {
       min-width: 70%;
-      
     }
   }
 }
 
-@media(min-width: 1280px) {
+@media (min-width: 1280px) {
   .list {
     .blog__info {
       padding: 3rem;
