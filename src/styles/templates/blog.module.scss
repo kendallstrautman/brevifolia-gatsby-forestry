@@ -1,6 +1,6 @@
 .blog {
   h1 {
-    margin-bottom: .7rem;
+    margin-bottom: 0.7rem;
   }
 }
 
@@ -19,7 +19,7 @@
   max-width: 768px;
   margin: 0 auto;
   h1 {
-    margin-bottom: .66rem;
+    margin-bottom: 0.66rem;
   }
   h3 {
     margin-bottom: 0;
@@ -71,19 +71,19 @@
     padding: 2rem 0;
     h1 {
       max-width: 500px;
-      margin: 0 auto .66rem auto;
+      margin: 0 auto 0.66rem auto;
     }
   }
   .blog__footer {
-    padding: 1rem 2rem 2rem 2rem;
+    padding: 2rem;
   }
 }
 
-@media(min-width: 1440px) {
+@media (min-width: 1440px) {
   .blog__info {
     padding: 3rem 0;
   }
   .blog__footer {
-    padding: 1rem 2rem 3rem 2rem;
+    padding: 2rem 2rem 3rem 2rem;
   }
 }
