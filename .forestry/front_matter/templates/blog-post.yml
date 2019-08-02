@@ -28,10 +28,10 @@ fields:
     required: false
     options: []
     source:
-      type: pages
+      type: documents
       section: author-list
-      file: authors.yml
-      path: /src/assets/data.authors.yml
+      file: src/assets/data/authors.yml
+      path: authors
   label: author
   description: Enter author of post
 pages:
