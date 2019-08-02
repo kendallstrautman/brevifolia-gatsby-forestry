@@ -2,27 +2,27 @@
 label: Blog Post
 hide_body: false
 fields:
-  - type: text
-    name: title
-    label: title
-  - type: text
-    name: author
-    label: author
-  - name: date
-    type: datetime
-    label: date
-    description: Date post was created
-    config:
-      required: false
-      date_format:
-      time_format:
-      display_utc: false
-    default: now
-  - name: hero_image
-    type: file
-    config:
-      maxSize: "10"
-    label: hero image
-    description: Enter hero image for blog post here
+- type: text
+  name: title
+  label: title
+- type: text
+  name: author
+  label: author
+- name: date
+  type: datetime
+  label: date
+  description: Date post was created
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  default: now
+- name: hero_image
+  type: file
+  config:
+    maxSize: '10'
+  label: hero image
+  description: Enter hero image for blog post here
 pages:
-  - src/content/posts/the-oldest-living-organism-on-the-planet.md
+- src/content/posts/the-oldest-living-organism-on-the-planet.md
