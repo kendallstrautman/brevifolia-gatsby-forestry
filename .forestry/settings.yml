@@ -14,6 +14,9 @@ sections:
   new_doc_ext: md
   templates:
   - blog-post
+- type: document
+  path: src/assets/data/authors.yaml
+  label: Author List
 - type: heading
   label: General Config
 - type: document
