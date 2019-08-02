@@ -17,7 +17,6 @@ sections:
 - type: document
   path: src/assets/data/authors.yml
   label: Author List
-  match: "**/*"
 - type: heading
   label: General Config
 - type: document
