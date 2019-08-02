@@ -30,8 +30,8 @@ fields:
     source:
       type: pages
       section: author-list
-      file: 
-      path: 
+      file: authors.yml
+      path: /src/assets/data.authors.yml
   label: author
   description: Enter author of post
 pages:
