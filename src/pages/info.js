@@ -4,9 +4,9 @@ import infoStyles from "../styles/components/info.module.scss"
 import useSiteMetaData from "../static_queries/useSiteMetadata"
 
 const Info = (props) => {
-  const { contact, repoUrl } = useSiteMetaData()
+  const { contact, repoUrl, primaryColor } = useSiteMetaData()
   return (
-    <Layout pathname={props.uri}>
+    <Layout pathname={props.uri} bgColor={primaryColor}>
       <section className={infoStyles.info_blurb}>
         <h2>
           This blog was created using <a href="https://forestry.io">Forestry</a>{" "}

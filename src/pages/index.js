@@ -4,7 +4,7 @@ import BlogList from "../components/blogList"
 
 const IndexPage = (props) => {
   return (
-    <Layout pathname={props.uri}>
+    <Layout pathname={props.uri} bgColor="inherit">
       <section>
         <BlogList />
       </section>

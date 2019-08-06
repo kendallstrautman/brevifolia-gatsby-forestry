@@ -5,7 +5,7 @@ import useSiteMetadata from "../static_queries/useSiteMetadata"
 import layoutStyles from "../styles/components/layout.module.scss"
 
 const Layout = props => {
-  const { title, description, primaryColor } = useSiteMetadata()
+  const { title, description } = useSiteMetadata()
   console.log(props.pathname == "/info")
   return (
     <section
@@ -13,9 +13,7 @@ const Layout = props => {
         props.pathname == "/info" &&
         layoutStyles.info_page}`}
       style={{
-        backgroundColor: `${
-          props.pathname == "/info" &&
-          primaryColor}`,
+        backgroundColor: props.bgColor,
       }}
     >
       <Helmet>
