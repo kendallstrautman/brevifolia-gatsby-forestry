@@ -6,6 +6,7 @@ import layoutStyles from "../styles/components/layout.module.scss"
 
 const Layout = props => {
   const { title, description, primaryColor } = useSiteMetadata()
+  console.log(props)
   return (
     <section
       className={`${layoutStyles.layout} ${
