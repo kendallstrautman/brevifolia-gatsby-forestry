@@ -6,6 +6,7 @@ const useBlogData = () => {
       allMarkdownRemark(sort: { order: DESC, fields: frontmatter___date }) {
         edges {
           node {
+            id
             frontmatter {
               date(formatString: "MMMM Do, YYYY")
               author

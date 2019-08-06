@@ -12,7 +12,7 @@ const Blog = () => {
           .filter(blog => blog.node.frontmatter.title !== "")
           .map(blog => {
             return (
-              <Link to={`/blog/${blog.node.fields.slug}`}>
+              <Link to={`/blog/${blog.node.fields.slug}`} key={blog.node.id}>
                 <li className={blogListStyles.li} key={blog.node.fields.slug}>
                   <div className={blogListStyles.hero_image}>
                     <img
