@@ -2,9 +2,9 @@ import React from "react"
 import Layout from "../components/layout"
 import BlogList from "../components/blogList"
 
-const IndexPage = (props) => {
+const IndexPage = () => {
   return (
-    <Layout pathname={props.uri} bgColor="inherit">
+    <Layout page="home" bgColor="inherit">
       <section>
         <BlogList />
       </section>

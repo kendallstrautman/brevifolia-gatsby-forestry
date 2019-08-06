@@ -6,11 +6,11 @@ import layoutStyles from "../styles/components/layout.module.scss"
 
 const Layout = props => {
   const { title, description } = useSiteMetadata()
-  console.log(props.pathname == "/info")
+  console.log(props)
   return (
     <section
       className={`${layoutStyles.layout} ${
-        props.pathname == "/info" &&
+        props.page == "info" && 
         layoutStyles.info_page}`}
       style={{
         backgroundColor: props.bgColor,
