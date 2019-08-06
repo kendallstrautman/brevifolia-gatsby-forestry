@@ -3,10 +3,10 @@ import Layout from "../components/layout"
 import infoStyles from "../styles/components/info.module.scss"
 import useSiteMetaData from "../static_queries/useSiteMetadata"
 
-const Info = () => {
+const Info = (props) => {
   const { contact, repoUrl } = useSiteMetaData()
   return (
-    <Layout>
+    <Layout pathname={props.uri}>
       <section className={infoStyles.info_blurb}>
         <h2>
           This blog was created using <a href="https://forestry.io">Forestry</a>{" "}
