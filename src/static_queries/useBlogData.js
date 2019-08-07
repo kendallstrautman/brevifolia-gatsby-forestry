@@ -15,6 +15,7 @@ const useBlogData = () => {
                 childImageSharp {
                   fixed {
                     srcSet
+                    base64
                   }
                 }
               }

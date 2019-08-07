@@ -17,6 +17,7 @@ export const getPostData = graphql`
           childImageSharp {
             fluid(maxWidth: 1500) {
               srcSet
+              base64
             }
           }
         }
