@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import Layout from "../components/Layout"
 import notFoundStyles from '../styles/pages/404.module.scss'
 
-const NotFound = () => {
+export default function NotFound() {
     return (
         <Layout page="404" bgColor="inherit">
             <div className={notFoundStyles.notFound__container}>
@@ -14,5 +14,3 @@ const NotFound = () => {
         </Layout>
     )
 }
-
-export default NotFound

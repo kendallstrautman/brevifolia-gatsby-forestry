@@ -3,7 +3,7 @@ import Layout from "../components/Layout"
 import infoStyles from "../styles/pages/info.module.scss"
 import useSiteMetaData from "../static_queries/useSiteMetadata"
 
-const Info = (props) => {
+export default function Info() {
   const { contact, repoUrl, primaryColor } = useSiteMetaData()
   return (
     <Layout page="info" bgColor={primaryColor}>
@@ -23,14 +23,14 @@ const Info = (props) => {
           </li>
           <li>
             <p>
-              <a href={contact.twitter_url}>
-                Twitter: {contact.twitter_handle}
+              <a href={`https://twitter.com/${contact.twitter_handle}`}>
+                Twitter: @{contact.twitter_handle}
               </a>
             </p>
           </li>
           <li>
             <p>
-              <a href={contact.github_url}>Github: {contact.github_handle}</a>
+              <a href={`https://github.com/${contact.github_handle}`}>Github: {contact.github_handle}</a>
             </p>
           </li>
         </ul>
@@ -38,5 +38,3 @@ const Info = (props) => {
     </Layout>
   )
 }
-
-export default Info

@@ -3,10 +3,8 @@
   "description": "Starter blog using Forestry CMS with Gatsby.",
   "contact": {
     "email": "info@forestry.io",
-    "twitter_handle": "@forestryio",
-    "twitter_url": "https://twitter.com/forestryio",
-    "github_handle": "forestryio",
-    "github_url": "https://github.com/forestryio"
+    "twitter_handle": "forestryio",
+    "github_handle": "forestryio"
   },
   "primary_color": "#ACCAC5",
   "repository_url": "https://github.com/kendallstrautman/starter-blog-gatsby"

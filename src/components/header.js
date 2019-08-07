@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import headerStyles from "../styles/components/header.module.scss"
 
-const Header = props => {
+export default function Header(props) {
   return (
     <header
       className={`${headerStyles.header} ${props.page === 'info' &&
@@ -36,5 +36,3 @@ const Header = props => {
     </header>
   )
 }
-
-export default Header

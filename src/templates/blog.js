@@ -2,9 +2,10 @@ import React from "react"
 import Layout from "../components/Layout"
 import { graphql } from "gatsby"
 import blogTemplateStyles from "../styles/templates/blog.module.scss"
+//this component handles the blur img & fade-ins
 import Img from 'gatsby-image'
 
-const Blog = props => {
+export default function Blog(props) {
   const data = props.data.markdownRemark
   return (
     <Layout>
@@ -29,8 +30,6 @@ const Blog = props => {
     </Layout>
   )
 }
-
-export default Blog
 
 //dynamic page query, must occur within each post context
 //$slug is made available by context from createPages call in gatsby-node.js

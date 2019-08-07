@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/Layout"
 import BlogList from "../components/BlogList"
 
-const IndexPage = () => {
+export default function IndexPage() {
   return (
     <Layout page="home" bgColor="inherit">
       <section>
@@ -11,5 +11,3 @@ const IndexPage = () => {
     </Layout>
   )
 }
-
-export default IndexPage

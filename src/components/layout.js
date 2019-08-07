@@ -4,7 +4,7 @@ import Helmet from "react-helmet"
 import useSiteMetadata from "../static_queries/useSiteMetadata"
 import layoutStyles from "../styles/components/layout.module.scss"
 
-const Layout = props => {
+export default function Layout(props) {
   const { title, description } = useSiteMetadata()
   return (
     <section
@@ -25,5 +25,3 @@ const Layout = props => {
     </section>
   )
 }
-
-export default Layout
