@@ -27,9 +27,14 @@ fields:
   - type: text
     name: github_url
     label: github_url
-- type: text
-  name: primary_color
-  label: primary_color
+- name: primary_color
+  type: color
+  config:
+    required: false
+    color_format: Hex
+  label: primary color
+  description: Select the primary color, also the background color of the info page
+  default: "#B7D3CE"
 - type: text
   name: repository_url
   label: repository_url
