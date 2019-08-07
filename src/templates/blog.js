@@ -1,5 +1,5 @@
 import React from "react"
-import Layout from "../components/layout"
+import Layout from "../components/Layout"
 import { graphql } from "gatsby"
 import blogTemplateStyles from "../styles/templates/blog.module.scss"
 import Img from 'gatsby-image'
@@ -28,7 +28,6 @@ export const getPostData = graphql`
 `
 
 const Blog = props => {
-  console.log(props)
   const data = props.data.markdownRemark
   return (
     <Layout>

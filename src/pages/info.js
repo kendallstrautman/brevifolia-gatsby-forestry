@@ -1,6 +1,6 @@
 import React from "react"
-import Layout from "../components/layout"
-import infoStyles from "../styles/components/info.module.scss"
+import Layout from "../components/Layout"
+import infoStyles from "../styles/pages/info.module.scss"
 import useSiteMetaData from "../static_queries/useSiteMetadata"
 
 const Info = (props) => {
