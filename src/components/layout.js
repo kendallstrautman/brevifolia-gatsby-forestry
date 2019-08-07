@@ -20,7 +20,7 @@ const Layout = props => {
         <title>{title}</title>
         <meta name="description" content={description} />
       </Helmet>
-      <Header title={title} />
+      <Header page={props.page} title={title} />
       <div className={layoutStyles.content}>{props.children}</div>
     </section>
   )
