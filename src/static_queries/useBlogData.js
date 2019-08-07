@@ -13,8 +13,8 @@ const useBlogData = () => {
               title
               hero_image {
                 childImageSharp {
-                  fluid {
-                    src
+                  fixed {
+                    srcSet
                   }
                 }
               }
