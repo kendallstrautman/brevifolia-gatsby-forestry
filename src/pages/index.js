@@ -1,6 +1,6 @@
 import React from "react"
-import Layout from "../components/layout"
-import BlogList from "../components/blogList"
+import Layout from "../components/Layout"
+import BlogList from "../components/BlogList"
 
 const IndexPage = () => {
   return (
