@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import useBlogData from "../static_queries/useBlogData"
 import blogListStyles from "../styles/components/bloglist.module.scss"
+import Img from 'gatsby-image'
 
 const Blog = () => {
   const blogData = useBlogData()
@@ -12,16 +13,12 @@ const Blog = () => {
           .filter(blog => blog.node.frontmatter.title !== "")
           .map(blog => {
             return (
-              <Link to={`/blog/${blog.node.fields.slug}`}>
+              <Link to={`/blog/${blog.node.fields.slug}`} key={blog.node.id}>
                 <li className={blogListStyles.li} key={blog.node.fields.slug}>
                   <div className={blogListStyles.hero_image}>
-                    <img
-                      src={
-                        blog.node.frontmatter.hero_image.childImageSharp.fluid
-                          .src
-                      }
-                      alt={`blog_hero_${blog.node.fields.slug}`}
-                    />
+                    <Img fixed={
+                        blog.node.frontmatter.hero_image.childImageSharp.fixed
+                      }/>
                   </div>
                   <div className={blogListStyles.blog__info}>
                     <h2>{blog.node.frontmatter.title}</h2>

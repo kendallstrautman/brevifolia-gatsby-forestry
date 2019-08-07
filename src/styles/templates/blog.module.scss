@@ -5,6 +5,8 @@
 }
 
 .blog__hero {
+  min-height: 300px;
+  height: 60vh;
   width: 100%;
   margin: 0;
   img {
@@ -62,6 +64,8 @@
     }
   }
   .blog__hero {
+    min-height: 600px;
+    height: 75vh;
     img {
       min-width: 100%;
     }
@@ -80,6 +84,9 @@
 }
 
 @media (min-width: 1440px) {
+  .blog__hero {
+    height: 70vh;
+  }
   .blog__info {
     padding: 3rem 0;
   }

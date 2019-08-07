@@ -35,8 +35,13 @@ module.exports = {
         name: "images",
       },
     },
+    {
+      resolve: "gatsby-plugin-sharp", 
+      options: {
+        defaultQuality: 75
+      }
+    },
     `gatsby-transformer-sharp`,
-    "gatsby-plugin-sharp",
     {
       resolve: "gatsby-transformer-remark",
       options: {

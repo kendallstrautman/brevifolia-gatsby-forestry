@@ -60,6 +60,12 @@ p {
   color: #464646;
 }
 
+//global for gatsby-image plugin container
+.gatsby-image-wrapper {
+  width: 100%;
+  min-height: 100%;
+}
+
 @media (min-width: 1280px) {
 
   h1 {

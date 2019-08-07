@@ -7,7 +7,7 @@
   "author": "@forestryio",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
+    "dev": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "gatsby": "^2.13.9",
+    "gatsby-image": "^2.2.8",
     "gatsby-plugin-react-helmet": "^3.1.0",
     "gatsby-plugin-sass": "^2.1.0",
     "gatsby-plugin-sharp": "^2.2.3",

@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import { graphql } from "gatsby"
 import blogTemplateStyles from "../styles/templates/blog.module.scss"
+import Img from 'gatsby-image'
 
 //dynamic page query, must occur within each post context
 //$slug is made available by context from createPages call in gatsby-node.js
@@ -15,7 +16,8 @@ export const getPostData = graphql`
         hero_image {
           childImageSharp {
             fluid(maxWidth: 1500) {
-              src
+              srcSet
+              base64
             }
           }
         }
@@ -26,14 +28,14 @@ export const getPostData = graphql`
 `
 
 const Blog = props => {
+  console.log(props)
   const data = props.data.markdownRemark
   return (
     <Layout>
       <article className={blogTemplateStyles.blog}>
         <figure className={blogTemplateStyles.blog__hero}>
-          <img
-            src={data.frontmatter.hero_image.childImageSharp.fluid.src}
-            alt={`blog_hero_${data.frontmatter.title}`}
+          <Img
+            fluid={data.frontmatter.hero_image.childImageSharp.fluid}
           />
         </figure>
         <div className={blogTemplateStyles.blog__info}>
