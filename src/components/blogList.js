@@ -18,8 +18,7 @@ const Blog = () => {
                   <div className={blogListStyles.hero_image}>
                     <Img fixed={
                         blog.node.frontmatter.hero_image.childImageSharp.fixed
-                      }
-                      alt={`blog_hero_${blog.node.fields.slug}`}/>
+                      }/>
                   </div>
                   <div className={blogListStyles.blog__info}>
                     <h2>{blog.node.frontmatter.title}</h2>
