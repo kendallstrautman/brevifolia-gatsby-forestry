@@ -10,9 +10,7 @@ export default function useSiteMetadata() {
           contact {
             email
             twitter_handle
-            twitter_url
             github_handle
-            github_url
           }
           primaryColor
           repoUrl
