@@ -4,29 +4,6 @@ import { graphql } from "gatsby"
 import blogTemplateStyles from "../styles/templates/blog.module.scss"
 import Img from 'gatsby-image'
 
-//dynamic page query, must occur within each post context
-//$slug is made available by context from createPages call in gatsby-node.js
-export const getPostData = graphql`
-  query($slug: String!) {
-    markdownRemark(fields: { slug: { eq: $slug } }) {
-      frontmatter {
-        title
-        author
-        date(formatString: "MMMM Do, YYYY")
-        hero_image {
-          childImageSharp {
-            fluid(maxWidth: 1500) {
-              srcSet
-              base64
-            }
-          }
-        }
-      }
-      html
-    }
-  }
-`
-
 const Blog = props => {
   const data = props.data.markdownRemark
   return (
@@ -54,3 +31,26 @@ const Blog = props => {
 }
 
 export default Blog
+
+//dynamic page query, must occur within each post context
+//$slug is made available by context from createPages call in gatsby-node.js
+export const getPostData = graphql`
+  query($slug: String!) {
+    markdownRemark(fields: { slug: { eq: $slug } }) {
+      frontmatter {
+        title
+        author
+        date(formatString: "MMMM Do, YYYY")
+        hero_image {
+          childImageSharp {
+            fluid(maxWidth: 1500) {
+              srcSet
+              base64
+            }
+          }
+        }
+      }
+      html
+    }
+  }
+`

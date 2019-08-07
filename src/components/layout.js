@@ -9,7 +9,7 @@ const Layout = props => {
   return (
     <section
       className={`${layoutStyles.layout} ${
-        props.page == "info" && 
+        props.page === "info" && 
         layoutStyles.info_page}`}
       style={{
         backgroundColor: props.bgColor,

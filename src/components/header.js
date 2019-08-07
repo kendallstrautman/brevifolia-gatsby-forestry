@@ -6,7 +6,7 @@ const Header = props => {
   return (
     <header
       className={`${headerStyles.header} ${typeof window !== "undefined" &&
-        window.location.pathname == "/info" &&
+        window.location.pathname === "/info" &&
         headerStyles.info_page}`}
     >
       <nav
@@ -22,14 +22,14 @@ const Header = props => {
             <Link
               to={
                 typeof window !== "undefined" &&
-                window.location.pathname == "/info"
+                window.location.pathname === "/info"
                   ? "/"
                   : "/info"
               }
               activeClassName={headerStyles.navItemActive}
             >
               {typeof window !== "undefined" &&
-              window.location.pathname == "/info"
+              window.location.pathname === "/info"
                 ? "close"
                 : "info"}
             </Link>

@@ -4,7 +4,7 @@ import useBlogData from "../static_queries/useBlogData"
 import blogListStyles from "../styles/components/bloglist.module.scss"
 import Img from 'gatsby-image'
 
-const Blog = () => {
+const BlogList = () => {
   const blogData = useBlogData()
   function renderBlogData() {
     return (
@@ -40,4 +40,4 @@ const Blog = () => {
   )
 }
 
-export default Blog
+export default BlogList

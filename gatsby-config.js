@@ -1,6 +1,7 @@
 const config = require("./config.json")
 
 module.exports = {
+  //this makes the site config available to forestry cms
   siteMetadata: {
     title: config.title,
     description: config.description,

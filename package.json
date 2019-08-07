@@ -4,7 +4,7 @@
   "description": "A simple starter to get up and developing quickly with Forestry & Gatsby",
   "license": "MIT",
   "version": "0.1.0",
-  "author": "@forestryio",
+  "author": "kendall strautman",
   "scripts": {
     "build": "gatsby build",
     "dev": "gatsby develop",
