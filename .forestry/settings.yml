@@ -15,7 +15,7 @@ sections:
   templates:
   - blog-post
 - type: document
-  path: src/assets/data/authors.yaml
+  path: src/content/data/authors.yaml
   label: Author List
 - type: heading
   label: General Config
