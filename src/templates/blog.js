@@ -43,8 +43,7 @@ export const getPostData = graphql`
         hero_image {
           childImageSharp {
             fluid(maxWidth: 1500) {
-              srcSet
-              base64
+              ...GatsbyImageSharpFluid
             }
           }
         }

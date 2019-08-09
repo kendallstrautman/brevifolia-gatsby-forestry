@@ -9,7 +9,7 @@ export default function Header(props) {
         headerStyles.info_page}`}
     >
       <nav
-        className={headerStyles.nav}
+        className={headerStyles.header__nav}
         role="navigation"
         aria-label="main navigation"
       >

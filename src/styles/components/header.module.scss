@@ -2,14 +2,9 @@
   h1 {
     margin-bottom: 0; 
   }
-  &.info_page {
-    nav {
-      // border-color: #fff;
-    }
-  }
 }
 
-.nav {
+.header__nav {
   padding: 1.5rem 1.25rem;
   border-bottom: 1px solid #EBEBEB;
   display: flex;
@@ -30,7 +25,7 @@
     top: 0;
   }
   
-  .nav {
+  .header__nav {
     padding: 2rem;
     height: 100%;
     border-right: 1px solid #EBEBEB;

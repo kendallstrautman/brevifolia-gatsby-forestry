@@ -60,9 +60,11 @@ p {
   color: #464646;
 }
 
-//global for gatsby-image plugin container
+// gatsby-image plugin container-----------------
+
 .gatsby-image-wrapper {
   width: 100%;
+  height: 100%;
   min-height: 100%;
 }
 
