@@ -24,6 +24,7 @@
 @media (min-width: 768px) {
   .header {
     height: 100vh;
+    width: 30%;
     position: fixed;
     left: 0;
     top: 0;
@@ -31,7 +32,6 @@
   
   .nav {
     padding: 2rem;
-    width: 30vw;
     height: 100%;
     border-right: 1px solid #EBEBEB;
     border-bottom: none;

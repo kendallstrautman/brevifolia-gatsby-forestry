@@ -38,8 +38,22 @@
   a {
     padding-bottom: 1.5rem;
   }
-  p:last-child {
+  :last-child {
     margin-bottom: 0;
+  }
+  h1, h2, h3, h4, h5, h6, p {
+    font-weight: normal;
+  }
+  p {
+    color: inherit;
+  }
+  ul {
+    list-style: initial;
+  }
+  ul, ol {
+    margin-left: 1.25rem;
+    margin-bottom: 1.25rem;
+    padding-left: 1.45rem;
   }
 }
 
@@ -61,6 +75,10 @@
     span {
       width: 100%;
       margin: 1.5rem auto;
+    }
+    ul, ol {
+      margin-left: 1.5rem;
+      margin-bottom: 1.5rem;
     }
   }
   .blog__hero {

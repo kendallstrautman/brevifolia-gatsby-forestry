@@ -38,6 +38,10 @@ author: Ralph Waldo Emerson
 #####  Yet not in all the nests I meet –
 
 #####  Can Nightingale be seen –
+1. uno
+2. dos
+3. tres
+4. cuatro
 
 ![](/src/content/images/sharon-mccutcheon-Th_WZMUPnO4-unsplash.jpg)
 
@@ -52,8 +56,3 @@ author: Ralph Waldo Emerson
 * siete
 * ocho
 * nueve
-
-1. uno
-2. dos
-3. tres
-4. cuatro
