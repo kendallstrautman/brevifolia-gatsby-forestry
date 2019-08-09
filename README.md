@@ -32,7 +32,7 @@ cd starter-blog-gatsby
 yarn install
 yarn dev
 ```
-A new browser window should open with the dev server running or you can navigate to localhost:8000. 
+A new browser window should open with the dev server running or you can navigate to localhost:8000 
 
 ### Plugins
 
