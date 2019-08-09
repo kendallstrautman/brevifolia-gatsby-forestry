@@ -29,6 +29,7 @@ In your terminal, navigate to where you would like this blog to live, then run
 ```
 git clone git@github.com:kendallstrautman/starter-blog-gatsby.git
 cd starter-blog-gatsby
+yarn install
 yarn dev
 ```
 A new browser window should open with the dev server running or you can navigate to localhost:8000. 
