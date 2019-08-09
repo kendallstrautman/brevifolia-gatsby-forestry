@@ -58,10 +58,24 @@
 }
 
 .blog__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 1.5rem 1.25rem;
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
+  h2 {
+    margin-bottom: 0;
+  }
+  a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    svg {
+      width: 20px;
+    }
+  }
 }
 
 @media (min-width: 768px) {
@@ -97,7 +111,7 @@
     }
   }
   .blog__footer {
-    padding: 2rem;
+    padding: 2.25rem;
   }
 }
 
