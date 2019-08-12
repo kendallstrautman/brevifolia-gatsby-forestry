@@ -35,5 +35,5 @@ fields:
   label: author
   description: Enter author of post
 pages:
-- src/content/posts/all-overgrown-by-cunning-moss.md
-- src/content/posts/the-oldest-living-organism-on-the-planet.md
+- content/posts/all-overgrown-by-cunning-moss.md
+- content/posts/the-oldest-living-organism-on-the-planet.md
