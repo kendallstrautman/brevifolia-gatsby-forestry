@@ -1,7 +1,7 @@
 ---
 date: 2019-08-08T23:44:29Z
 title: All overgrown by cunning moss
-hero_image: "/src/content/images/ren-ran-bBiuSdck8tU-unsplash.jpg"
+hero_image: "/content/images/ren-ran-bBiuSdck8tU-unsplash.jpg"
 author: Ralph Waldo Emerson
 
 ---

@@ -2,10 +2,13 @@
   a:hover {
     opacity: 1;
     li {
-      div.list__hero {
-        img {
-          opacity: 0.8;
-          transition: opacity 0.3s ease;
+      .list__hero {
+        div {
+          picture {
+              opacity: 0.8;
+              transition: opacity 0.3s ease;
+            
+          }
         }
       }
     }
@@ -18,9 +21,14 @@
     img {
       object-fit: cover;
       object-position: 50% 50%;
-      opacity: 1;
-      transition: opacity 0.3s ease;
       min-height: 100%;
+    }
+    div {
+      picture {
+        opacity: 1;
+        -webkit-transition: opacity .3s ease;
+        transition: opacity 0.3s ease;
+      }
     }
   }
   .list__info {
@@ -63,13 +71,6 @@
     a:hover {
       opacity: 1;
       li {
-        div.list__hero {
-          img {
-            opacity: 0.8;
-            -webkit-transition: opacity 0.3 ease;
-            transition: opacity 0.3s ease;
-          }
-        }
         div.list__info {
           h2,
           h3,

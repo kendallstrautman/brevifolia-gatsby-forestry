@@ -26,11 +26,20 @@ TBD...
 TBD...
 #### *Set-up Locally*
 In your terminal, navigate to where you would like this blog to live, then run 
-```
+```bash
+#clone the repo
 git clone git@github.com:kendallstrautman/starter-blog-gatsby.git
+
+#navigate to the directory
 cd starter-blog-gatsby
+
+#install dependencies & run dev server with yarn 
 yarn install
 yarn dev
+
+#or with npm 
+npm install
+npm run dev
 ```
 A new browser window should open with the dev server running or you can navigate to localhost:8000 
 

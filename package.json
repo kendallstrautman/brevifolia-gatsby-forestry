@@ -1,7 +1,7 @@
 {
   "name": "foresry-starter-blog-gatsby",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Forestry & Gatsby",
+  "description": "A simple starter blog to get up and developing quickly with Forestry & Gatsby",
   "license": "MIT",
   "version": "0.1.0",
   "author": "kendall strautman",
@@ -36,7 +36,8 @@
     "prettier": "^1.18.2"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "forestry"
   ],
   "repository": {
     "type": "git",
