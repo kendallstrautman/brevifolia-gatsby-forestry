@@ -30,10 +30,10 @@ fields:
     source:
       type: documents
       section: author-list
-      file: src/content/data/authors.yaml
+      file: content/data/authors.yaml
       path: authors
   label: author
   description: Enter author of post
 pages:
-- content/posts/all-overgrown-by-cunning-moss.md
 - content/posts/the-oldest-living-organism-on-the-planet.md
+- content/posts/all-overgrown-by-cunning-moss.md
