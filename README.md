@@ -60,7 +60,7 @@ With Gatsby offering a plugin-rich ecosystem, there are a few key plugins that m
 - Add and access plugin options or siteMetaData via `gatsby-config.js`
 - Access Gatsby's [node api's](https://www.gatsbyjs.org/docs/node-apis/) via `gatsby-node.js`. This is where the creation of new blog pages or nodes is handled. 
 - Edit styles via `src/styles/...`
-- `src/content`contains all your markdown blog posts, images & data files (e.g. authors list). 
+- `content/`contains all your markdown blog posts, images & data files (e.g. authors list). 
 - `src/pages` is a very important and required directory for Gatsby. This is where all your pages for the site live. 
 - Blog posts are built from a template that can be accessed at `src/templates`. 
 - The pages & template are comprised of components from `src/components`.
