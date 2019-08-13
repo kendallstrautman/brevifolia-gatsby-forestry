@@ -1,5 +1,5 @@
 ---
-date: 2019-08-08T23:44:29Z
+date: 2019-08-08T23:44:29.000+00:00
 title: All overgrown by cunning moss
 hero_image: "/content/images/ren-ran-bBiuSdck8tU-unsplash.jpg"
 author: Ralph Waldo Emerson
@@ -7,21 +7,19 @@ author: Ralph Waldo Emerson
 ---
 #### All overgrown by cunning moss,
 
-####  All interspersed with weed,
+#### All interspersed with weed,
 
-####  The little cage of “Currer Bell”
+#### The little cage of “Currer Bell”
 
-####  In quiet “Haworth” laid.
+#### In quiet “Haworth” laid.
 
-> 
+> **This Bird – observing others**
 >
->  **This Bird – observing others**
+> **When frosts too sharp became**
 >
->  **When frosts too sharp became**
+> **Retire to other latitudes –**
 >
->  **Retire to other latitudes –**
->
->  **Quietly did the same –**
+> **Quietly did the same –**
 
     <h2>
               This blog was created using <a href="https://forestry.io">Forestry</a>{" "}
@@ -31,17 +29,33 @@ author: Ralph Waldo Emerson
               repository <a href={repoUrl}>here</a>.
             </h2>
 
-#####  But differed in returning –
+##### But differed in returning –
 
-#####  Since Yorkshire hills are green –
+##### Since Yorkshire hills are green –
 
-#####  Yet not in all the nests I meet –
+##### Yet not in all the nests I meet –
 
-#####  Can Nightingale be seen –
+##### Can Nightingale be seen –
+
 1. uno
 2. dos
 3. tres
 4. cuatro
+
+   ;ljk;oiseur;lkjg
+5. something
+6. 
+
+lkj;liuerl
+5\. somethin
+
+1\.
+
+2\.
+
+;ljf;lasjkdf
+
+3\.
 
 ![](/src/content/images/sharon-mccutcheon-Th_WZMUPnO4-unsplash.jpg)
 
@@ -56,3 +70,9 @@ author: Ralph Waldo Emerson
 * siete
 * ocho
 * nueve
+
+2.   
+     
+   ljkasd;lfkja;lsdkjf
+3. sl;dkjf;alsdjkfals;dkj
+4. 
