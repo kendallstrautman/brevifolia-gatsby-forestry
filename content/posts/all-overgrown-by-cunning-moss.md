@@ -5,6 +5,8 @@ hero_image: "/content/images/ren-ran-bBiuSdck8tU-unsplash.jpg"
 author: Ralph Waldo Emerson
 
 ---
+Testing all md formatting styles...
+
 #### All overgrown by cunning moss,
 
 #### All interspersed with weed,
@@ -41,25 +43,9 @@ author: Ralph Waldo Emerson
 2. dos
 3. tres
 4. cuatro
-
-   ;ljk;oiseur;lkjg
-5. something
-6. 
-
-lkj;liuerl
-5\. somethin
-
-1\.
-
-2\.
-
-;ljf;lasjkdf
-
-3\.
+5. 
 
 ![](/src/content/images/sharon-mccutcheon-Th_WZMUPnO4-unsplash.jpg)
-
-![](/src/content/images/scott-webb-qauaqihMwpc-unsplash.jpg)
 
 * list item 1
 * two
@@ -70,9 +56,3 @@ lkj;liuerl
 * siete
 * ocho
 * nueve
-
-2.   
-     
-   ljkasd;lfkja;lsdkjf
-3. sl;dkjf;alsdjkfals;dkj
-4. 
