@@ -20,7 +20,6 @@ sections:
 - type: document
   path: content/data/info.json
   label: Info Page
-  match: "**/*"
 - type: heading
   label: General Config
 - type: document

@@ -1,0 +1,26 @@
+---
+label: Info Page
+hide_body: true
+fields:
+- type: text
+  name: description
+  label: description
+- type: text
+  name: cta
+  label: cta
+- type: field_group
+  name: contact
+  label: contact
+  fields:
+  - type: text
+    name: email
+    label: email
+  - type: text
+    name: twitter_handle
+    label: twitter_handle
+  - type: text
+    name: github_handle
+    label: github_handle
+- type: text
+  name: background_color
+  label: background_color
