@@ -1,11 +1,10 @@
 {
-    "description":"This blog was created using Forestry & Gatsby",
-    "cta": "To get started, import this site into Forestry or checkout the repository here",
-    "contact": {
-        "email": "info@forestry.io",
-        "twitter_handle": "forestryio",
-        "github_handle": "forestryio"
-    },
-    "background_color": "#ACCAC5"
+  "description": "This blog was created using Forestry & Gatsby",
+  "cta": "To get started, import this site into Forestry or checkout the repository here",
+  "contact": {
+    "email": "info@forestry.io",
+    "twitter_handle": "forestryio",
+    "github_handle": "forestryio"
+  },
+  "background_color": "#ACCAC5"
 }
- 
