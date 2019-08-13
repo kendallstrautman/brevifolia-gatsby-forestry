@@ -2,12 +2,26 @@
 label: Info Page
 hide_body: true
 fields:
-- type: text
-  name: description
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
   label: description
-- type: text
-  name: cta
+  description: Enter description here
+- name: cta
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
   label: cta
+  description: Enter call to action here
 - type: field_group
   name: contact
   label: contact
@@ -21,6 +35,11 @@ fields:
   - type: text
     name: github_handle
     label: github_handle
-- type: text
-  name: background_color
+- name: background_color
+  type: color
   label: background_color
+  config:
+    required: false
+    color_format: Hex
+  description: Enter info page background color
+  default: "#ABC5C1"
