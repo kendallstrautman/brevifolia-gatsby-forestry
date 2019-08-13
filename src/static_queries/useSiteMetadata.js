@@ -7,13 +7,17 @@ export default function useSiteMetadata() {
         siteMetadata {
           title
           description
-          contact {
-            email
-            twitter_handle
-            github_handle
-          }
-          primaryColor
           repoUrl
+          infoData {
+            contact {
+              email
+              github_handle
+              twitter_handle
+            }
+            cta
+            description
+            background_color
+          }
         }
       }
     }
