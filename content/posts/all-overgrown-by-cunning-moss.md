@@ -5,7 +5,7 @@ hero_image: "/content/images/ren-ran-bBiuSdck8tU-unsplash.jpg"
 author: Ralph Waldo Emerson
 
 ---
-Testing all md formatting styles... here we go one two three four five 6 7 8 9 10 11
+Testing all md formatting styles... here we go one two three four five
 
 #### All overgrown by cunning moss,
 
