@@ -5,6 +5,8 @@ hero_image: "/content/images/ren-ran-bBiuSdck8tU-unsplash.jpg"
 author: Ralph Waldo Emerson
 
 ---
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">this water park for dogs in spain looks like paradise<br>(Javier San Nicolas FB) <a href="https://t.co/5ouVMGVJWv">pic.twitter.com/5ouVMGVJWv</a></p>&mdash; Humor And Animals (@humorandanimals) <a href="https://twitter.com/humorandanimals/status/1161758925844357121?ref_src=twsrc%5Etfw">August 14, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
 Testing all md formatting styles... here we go one two three four five six
 
 #### All overgrown by cunning moss,
