@@ -35,8 +35,8 @@ fields:
   label: hero image
   description: Enter hero image for blog post here
 pages:
+- content/posts/ne-te-quaesiveris-extra.md
 - content/posts/song-of-myself.md
 - content/posts/an-essay-on-walking.md
 - content/posts/sunflower-sutra.md
-- content/posts/ne-te-quaesiveris-extra.md
 - content/posts/on-the-geneology-of-morals.md
