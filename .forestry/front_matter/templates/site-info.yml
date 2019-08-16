@@ -1,5 +1,5 @@
 ---
-label: Site Info
+label: Site Config
 hide_body: true
 fields:
 - type: text
