@@ -35,4 +35,5 @@ fields:
   label: author
   description: Enter author of post
 pages:
+- content/posts/on-the-geneology-of-morals.md
 - content/posts/all-overgrown-by-cunning-moss.md
