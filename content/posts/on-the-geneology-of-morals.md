@@ -2,7 +2,7 @@
 date: 2019-08-16T22:37:31Z
 title: On the Geneology of Morals
 hero_image: "/content/images/jj-ying-7JX0-bfiuxQ-unsplash.jpg"
-author: ''
+author: Friedrich Nietzsche
 
 ---
 So all respect to the good spirits that may govern in these historians of morality! But it’s certainly a pity that they lack the historical spirit itself, that they’ve been left in the lurch by all the good spirits of history! Collectively they all think essentially unhistorically, in the traditional manner of philosophers. Of that there is no doubt. The incompetence of their genealogies of morals reveals itself at the very beginning, where the issue is to determine the origin of the idea and of the judgment “good.”
