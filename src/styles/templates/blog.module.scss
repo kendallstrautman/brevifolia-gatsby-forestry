@@ -41,12 +41,14 @@
   :last-child {
     margin-bottom: 0;
   }
-  h1, h2, h3, h4, h5, h6, p {
+  h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
     padding: 1.5rem;
+    line-height: 1.2;
   }
   p {
     color: inherit;
+    font-weight: normal;
   }
   ul {
     list-style: initial;
