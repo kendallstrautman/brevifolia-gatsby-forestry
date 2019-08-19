@@ -30,7 +30,6 @@ public_path: "/content/images"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
-instant_preview: true
 build:
   preview_output_directory: public
   install_dependencies_command: yarn install
@@ -38,6 +37,3 @@ build:
   mount_path: "/srv"
   working_dir: "/srv/public"
   instant_preview_command: yarn forestry-preview
-  publish_command: gatsby build
-  output_directory: public
-  preview_command: gatsby build
