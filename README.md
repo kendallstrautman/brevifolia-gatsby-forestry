@@ -28,7 +28,7 @@ The styles were coded & designed by yours truly, using [scss](https://sass-lang.
     <img alt="Import this project into Forestry" src="https://assets.forestry.io/import-to-forestryK.svg" />
 </a>
 
-#### *Using the Gatsby CLI
+#### *Using the Gatsby CLI*
 TBD...
 #### *Set-up Locally*
 In your terminal, navigate to where you would like this blog to live, then run 
