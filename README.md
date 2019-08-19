@@ -22,7 +22,7 @@ The styles were coded & designed by yours truly, using [scss](https://sass-lang.
 
 #### *Import to Forestry Button*
 
-<a href="https://app.forestry.io/quick-start?repo=kendallstrautman/starter-blog-gatsby&engine=gatsby">
+<a href="https://app.forestry.io/quick-start?repo=kendallstrautman/brevifolia-gatsby-forestry&engine=gatsby">
     <img alt="Import this project into Forestry" src="https://assets.forestry.io/import-to-forestryK.svg" />
 </a>
 
@@ -32,7 +32,7 @@ TBD...
 In your terminal, navigate to where you would like this blog to live, then run 
 ```bash
 #clone the repo
-git clone git@github.com:kendallstrautman/starter-blog-gatsby.git
+git clone git@github.com:kendallstrautman/brevifolia-gatsby-forestry.git
 
 #navigate to the directory
 cd starter-blog-gatsby
@@ -83,6 +83,6 @@ The [instant preview](https://forestry.io/docs/previews/instant-previews/) metho
 
 ## Deploy Options
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/kendallstrautman/starter-blog-gatsby)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/kendallstrautman/brevifolia-gatsby-forestry)
 
 [Netlify](https://www.netlify.com/blog/2016/09/29/a-step-by-step-guide-deploying-on-netlify/) is a great way to easily deploy sites. There's no special setup you need to do with Forestry to deploy with Netlify. When Forestry makes commits to your repo, Netlify will auto-trigger a rebuild / deploy when new commits are made.
