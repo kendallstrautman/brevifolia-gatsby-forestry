@@ -21,7 +21,11 @@ The styles were coded & designed by yours truly, using [scss](https://sass-lang.
 ##  Quick Setup
 
 #### *Import to Forestry Button*
-TBD...
+
+<a href="https://app.forestry.io/quick-start?repo=kendallstrautman/starter-blog-gatsby&engine=gatsby">
+    <img alt="Import this project into Forestry" src="https://assets.forestry.io/import-to-forestryK.svg" />
+</a>
+
 #### *Gatsby new - after submit to gatsby starter*
 TBD...
 #### *Set-up Locally*
