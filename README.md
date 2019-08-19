@@ -37,7 +37,7 @@ In your terminal, navigate to where you would like this blog to live, then run
 git clone git@github.com:kendallstrautman/brevifolia-gatsby-forestry.git
 
 #navigate to the directory
-cd starter-blog-gatsby
+cd brevifolia-gatsby-forestry
 
 #install dependencies & run dev server with yarn 
 yarn install
