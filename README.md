@@ -22,7 +22,7 @@ The styles were coded & designed by yours truly, using [scss](https://sass-lang.
 
 ##  Quick Setup
 
-#### *Import to Forestry Button*
+#### *Import Directly to Forestry*
 
 <a href="https://app.forestry.io/quick-start?repo=kendallstrautman/brevifolia-gatsby-forestry&engine=gatsby">
     <img alt="Import this project into Forestry" src="https://assets.forestry.io/import-to-forestryK.svg" />
