@@ -29,7 +29,12 @@ The styles were coded & designed by yours truly, using [scss](https://sass-lang.
 </a>
 
 #### *Using the Gatsby CLI*
-TBD...
+In your terminal, navigate to where you would like this blog to live, then run 
+```bash 
+gatsby new [SITE_DIRECTORY_NAME] https://github.com/kendallstrautman/brevifolia-gatsby-forestry
+cd [SITE_DIRECTORY_NAME]
+yarn dev 
+```
 #### *Set-up Locally*
 In your terminal, navigate to where you would like this blog to live, then run 
 ```bash
