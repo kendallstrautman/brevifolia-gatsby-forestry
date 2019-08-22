@@ -42,6 +42,6 @@ fields:
     required: false
     color_format: Hex
   description: Enter info page background color
-  default: "#ABC5C1"
+  default: "#B1BCBC"
 pages:
 - content/data/info.json
