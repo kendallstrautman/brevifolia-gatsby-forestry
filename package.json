@@ -8,7 +8,7 @@
   "scripts": {
     "build": "gatsby build",
     "dev": "gatsby develop -o",
-    "develop": "yarn dev"
+    "develop": "yarn dev",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "yarn dev",
     "serve": "gatsby serve",
