@@ -13,7 +13,7 @@ So all respect to the good spirits that may govern in these historians of morali
 
 We see right away that this initial derivation already contains all the typical characteristics of the idiosyncrasies of English psychologists—we have “usefulness,” “forgetting,” “habit,” and finally “error,” all as the foundation for an evaluation in which the higher man up to this time has taken pride, as if it were a sort of privilege of men generally. This pride should be humbled, this evaluation of worth emptied of value. Has that been achieved?
 
-![](/content/images/ruslan-bardash-g83y6do219w-unsplash.jpg)
+![](../images/ruslan-bardash-g83y6do219w-unsplash.jpg)
 
 Now, first of all, it’s obvious to me that from this theory the origin of the idea “good” has been sought for and established in the wrong place: the judgment “good” did not move here from those to whom “goodness” was shown! It is much more that case that the “good people” themselves, that is, the noble, powerful, higher-ranking and higher-thinking people felt and set themselves and their actions up as good, that is to say, of the first rank, in contrast to everything low, low-minded, common, and vulgar. From this pathos of distance they first arrogated to themselves the right to create values, to stamp out the names for values. What did they care about usefulness!
 

@@ -2,7 +2,7 @@
 date: 2019-08-13T22:40:32Z
 title: Ne Te Quaesiveris Extra
 author: Ralph Waldo Emerson
-hero_image: "/content/images/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg"
+hero_image: "../images/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg"
 
 ---
 I read the other day some verses written by an eminent painter which were original and not conventional. The soul always hears an admonition in such lines, let the subject be what it may. The sentiment they instill is of more value than any thought they may contain. To believe your own thought, to believe that what is true for you in your private heart is true for all men, — that is genius.
@@ -13,7 +13,7 @@ Speak your latent conviction, and it shall be the universal sense; for the inmos
 
 Yet he dismisses without notice his thought, because it is his. In every work of genius we recognize our own rejected thoughts: they come back to us with a certain alienated majesty. Great works of art have no more affecting lesson for us than this. They teach us to abide by our spontaneous impression with good-humored inflexibility then most when the whole cry of voices is on the other side. Else, to-morrow a stranger will say with masterly good sense precisely what we have thought and felt all the time, and we shall be forced to take with shame our own opinion from another.
 
-![](/content/images/anomaly-oRskqiH7FNc-unsplash.jpg)
+![](../images/anomaly-oRskqiH7FNc-unsplash.jpg)
 
 There is a time in every man’s education when he arrives at the conviction that envy is ignorance; that imitation is suicide; that he must take himself for better, for worse, as his portion; that though the wide universe is full of good, no kernel of nourishing corn can come to him but through his toil bestowed on that plot of ground which is given to him to till. The power which resides in him is new in nature, and none but he knows what that is which he can do, nor does he know until he has tried.
 
